@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.apexcharts-line-series path {
+    stroke-width: 1px!important; /* Adjust this value to change the stroke width */
+  }
+  .apexcharts-toolbar {
+    display: none !important;
+  }
